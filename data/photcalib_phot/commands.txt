@@ -1,0 +1,10 @@
+
+python sparc4_photometric_calibration.py --input="/Users/eder/Science/sparc4-analysis/data/photcalib_phot/hats-9_20240615_master-catalog_clean.csv" --output="/Users/eder/Science/sparc4-analysis/data/photcalib_phot/hats-9_20240615_master-catalog_clean.json" --output_catalog=/Users/eder/Science/sparc4-analysis/data/photcalib_phot/hats-9_20240615_master-catalog_clean_new.csv
+
+python sparc4_photometric_calibration.py --input="/Users/eder/Science/sparc4-analysis/data/photcalib_phot/HATS-23_master-catalog.csv" --output="/Users/eder/Science/sparc4-analysis/data/photcalib_phot/HATS-23_master-catalog.json" --output_catalog=/Users/eder/Science/sparc4-analysis/data/photcalib_phot/HATS-23_master-catalog_new.csv --input_solution=/Users/eder/Science/sparc4-analysis/data/photcalib_phot/hats-9_20240615_master-catalog_clean.json
+
+
+python sparc4_photometric_calibration.py --input="/Users/eder/Science/sparc4-analysis/data/photcalib_phot/hats-24_master-catalog.csv" --output="/Users/eder/Science/sparc4-analysis/data/photcalib_phot/hats-24_master-catalog.csv.json" --output_catalog=/Users/eder/Science/sparc4-analysis/data/photcalib_phot/hats-24_master-catalog_new.csv --input_solution=/Users/eder/Science/sparc4-analysis/data/photcalib_phot/hats-9_20240615_master-catalog_clean.json
+
+
+python sparc4_photometric_calibration.py --input="/Users/eder/Science/sparc4-analysis/data/photcalib_phot/20240617_HATS-9_master-catalog.csv" --output="/Users/eder/Science/sparc4-analysis/data/photcalib_phot/20240617_HATS-9_master-catalog.json" --output_catalog=/Users/eder/Science/sparc4-analysis/data/photcalib_phot/20240617_HATS-9_master-catalog_new.csv --input_solution=/Users/eder/Science/sparc4-analysis/data/photcalib_phot/hats-9_20240615_master-catalog_clean.json
